@@ -3,9 +3,6 @@
 
 <h1>🎮 HY-World 1.5: 实时、几何一致的交互式世界建模系统框架</h1>
 
-
-
-
 </div>
 
 <div align="center">
@@ -111,13 +108,13 @@ https://github.com/user-attachments/assets/63e5e5ec-34b2-4160-b7d2-4dd18cf25d71
 免安装试用我们的**在线服务**: https://3d.hunyuan.tencent.com/sceneTo3D
 
 ## 🧱 下载预训练模型
-我们提供了使用混元视频-1.5 的实现，这是最强大的开源视频扩散模型之一。模型权重可在 xxx 中找到。
+我们提供了使用混元视频-1.5 的实现，这是最强大的开源视频扩散模型之一。模型权重可在 [这里](https://huggingface.co/tencent/HY-WorldPlay) 下载。
 
 |模型名称| 下载                     |\
 |-|-------------------------------------------|
-HY-World1.5-Bidirectional-480P-I2V |     |
-HY-World1.5-Autoregressive-480P-I2V |    |
-HY-World1.5-Autoregressive-480P-I2V-distill |     |
+HY-World1.5-Bidirectional-480P-I2V |  [下载地址](https://huggingface.co/tencent/HY-WorldPlay/tree/main/ar_model)   |
+HY-World1.5-Autoregressive-480P-I2V |  [下载地址](https://huggingface.co/tencent/HY-WorldPlay/tree/main/bidirectional_model)  |
+HY-World1.5-Autoregressive-480P-I2V-distill |  [下载地址](https://huggingface.co/tencent/HY-WorldPlay/tree/main/ar_distilled_action_model)   |   
 
 ## 🔑 推理
 我们开源了双向和自回归扩散模型的推理代码。对于提示重写，我们建议使用 Gemini 或通过 vLLM 部署的模型。此代码库目前仅支持与 vLLM API 兼容的模型。如果您希望使用 Gemini，您需要实现自己的接口调用。详情可参考 [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)。

@@ -112,13 +112,13 @@ https://github.com/user-attachments/assets/63e5e5ec-34b2-4160-b7d2-4dd18cf25d71
 Try our **online demo** without installation: https://3d.hunyuan.tencent.com/sceneTo3D
 
 ## 🧱 Download Pretrained Models
-We provide the implementaion using the HunyuanVideo-1.5, which is one of most powerful open-source video diffusion models. The model checkpoints can be found in xxx.
+We provide the implementaion using the HunyuanVideo-1.5, which is one of most powerful open-source video diffusion models. The model checkpoints can be found [here](https://huggingface.co/tencent/HY-WorldPlay).
 
 |ModelName| Download                     |
 |-|-------------------------------------------| 
-HY-World1.5-Bidirectional-480P-I2V |     |
-HY-World1.5-Autoregressive-480P-I2V |    |
-HY-World1.5-Autoregressive-480P-I2V-distill |     |   
+HY-World1.5-Bidirectional-480P-I2V |  [Link](https://huggingface.co/tencent/HY-WorldPlay/tree/main/ar_model)   |
+HY-World1.5-Autoregressive-480P-I2V |  [Link](https://huggingface.co/tencent/HY-WorldPlay/tree/main/bidirectional_model)  |
+HY-World1.5-Autoregressive-480P-I2V-distill |  [Link](https://huggingface.co/tencent/HY-WorldPlay/tree/main/ar_distilled_action_model)   |   
 
 ## 🔑 Inference
 We open source the inference code for both bidirectional and autoregressive diffusion models. For prompt rewriting, we recommend using Gemini or models deployed via vLLM. This codebase currently only supports models compatible with the vLLM API. If you wish to use Gemini, you will need to implement your own interface calls. The details can be found in [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5). 
