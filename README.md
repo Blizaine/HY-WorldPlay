@@ -3,6 +3,7 @@
 
 <h1>🎮 HY-World 1.5: A Systematic Framework for Interactive World Modeling with Real-Time Latency and Geometric Consistency</h1>
 
+[English](README.md) | [简体中文](README_zh.md)
 
 
 
