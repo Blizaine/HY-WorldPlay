@@ -32,7 +32,7 @@
 </p>
 
 ## 🔥 News
-- December 17, 2025: 👋 We present the [technical report](https://3d-models.hunyuan.tencent.com/world/world1_5/HYWorld_1.5_Tech_Report.pdf) and [research paper](https://arxiv.org/abs/2507.21809) of HY-World 1.5 (WorldPlay), please check out the details and spark some discussion!
+- December 17, 2025: 👋 We present the [technical report](https://3d-models.hunyuan.tencent.com/world/world1_5/HYWorld_1.5_Tech_Report.pdf) and [research paper](https://arxiv.org/abs/2512.14614) of HY-World 1.5 (WorldPlay), please check out the details and spark some discussion!
 - December 17, 2025: 🤗 We release the first open-source, real-time interactive, and long-term geometric consistent world model, HY-World 1.5 (WorldPlay)!
 
 > Join our **[Wechat](#)** and **[Discord](https://discord.gg/dNBrdrGGMa)** group to discuss and find help from us.
