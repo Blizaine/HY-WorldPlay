@@ -1,0 +1,14 @@
+{
+  "model_path": "",
+  "ar_action_model_path": "",
+  "bi_action_model_path": "",
+  "ar_distill_action_model_path": "",
+  "output_base_path": "./outputs/",
+  "n_inference_gpu": 1,
+  "default_seed": 42,
+  "vllm_server_base_url": "",
+  "vllm_model_name": "",
+  "enable_model_offloading": true,
+  "cache_dir": "./cache/",
+  "log_level": "INFO"
+}
